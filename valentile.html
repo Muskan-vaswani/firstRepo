@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="valentine.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="happy">
+        <div class="card">
+            <div class="clouds"></div>
+            <div class="hearts">
+                <div class="heart1">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heart2">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heart3">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heart4">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heart5">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+            </div>
+            <div class="text"><span>Happy Valentine's<br>Day!</span></div>
+        </div>
+       
+<script>
+    // Function to handle user input and update the text content
+    function updateText() {
+        var userInput = prompt("Enter your message:");
+        if (userInput !== null) {
+            document.querySelector(".text span").textContent = userInput;
+        }
+    }
+</script>
+<!-- Update the paragraph with the onclick event -->
+<p class="hover">click on happy valentine's</p>
+<p class="hover" onclick="updateText()">Add a reply here..</p>
+
+</body>
+
+</html>
+
